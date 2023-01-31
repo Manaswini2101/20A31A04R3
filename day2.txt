@@ -1,0 +1,102 @@
+seperator is used to seperate the values with the symbol given in sep operator
+1.a,b,c=10,20,30
+print(b,c,a,sep='?')
+output:20?30?10
+
+2.apple=100
+banana=200
+pineapple=300
+print(apple)               print(apple,end='')#output on sameline
+print(banana)              print(banana,end='')
+print(pineapple)           print(pineapple,end='')
+
+
+3.split method is used to get and seperate multiple inputs from user along with void space
+syntax:
+input().split(seperator,maxsplit)
+ex:
+1.x,y,z=input("enter the value:").split(*)                            2.x,y,z=input("enter the value:").split('0')
+print("total number of students:",x)                                        print("total number of students:",x)
+print("number of boys:",y)                                                  print("number of boys:",y) 
+print("number of girls:",z)                                                  print("number of girls:",z)
+
+
+CONTROL STATEMENTS:
+1.email="balaji@gmail.com"                                       3.a=5
+pswd=123456                                                        b=True
+cemail=input("enter the email:")                                  if(1==b):
+cpswd=int(input("enter the password:"))                               print("yes")
+if(email==cemail and pswd==cpsdw):                                else:
+    print("login successful")
+elif(email!==cemail and pswd==cpswd):
+    print("login failed due to wrong email")
+elif(email==cemail and pswd!==cpswd):
+    print("login failed due to wrong password")
+elif(email!==cemail and pswd!==cpswd):
+    print("login failed due to wrong email and password")
+else:
+    print("login failed")
+
+2.a=5                                                      
+b=5.0
+if(a==b):
+    print("yes")
+else:
+    print("no")
+
+4.n=21
+l=int(input("enter the value:"))
+if(l%n==0):
+    print("it is divisible")
+else:
+    print("it is not divisible")
+
+
+5.email="balaji@gmail.com"
+pswd=123456
+otp=5678
+cemail=input("enter the email:")                                  
+cpswd=int(input("enter the password:"))
+if(email==cemail and pswd==cpswd):
+    print("login successful")
+    cotp=print(int(input("enter the otp:")))
+    if(cotp==otp):
+        print("amazon order placed successful")
+    else:
+        print("invalid otp and order not placed")
+elif(email!=cemail and pswd==cpswd):
+    print("login failed due to wrong email")
+elif(email==cemail and pswd!=cpswd):
+    print("login failed due to wrong password")
+elif(email!=cemail and pswd!=cpswd):
+    print("login failed due to wrong email and password")
+else:
+    print("login failed")
+
+6.ITERATION OPERATORS:
+in and not in operator: to check the availability of a particular character in a range of values/charaters/in a string ,in and not in operators are used.output will be true or false.
+syntax of for:
+for(i in range(1,n)):
+    print(i)#i value is printed upto(n-1)
+*To disable multiple lines ,place ''' at the start and the end of code line.
+ex:
+for i in range(97,122):   #97 to 122 is the range for alphabets a to z in ascii table and 65 to 91 is the range for alphabets A to Z in ascii table
+    print(chr(i),end='')
+
+each and every time ,the outer loop for iteration was initialised and the inner loop is reinitialised.
+
+for i in range(1,5):
+    for j in range(1,i+1):
+        print(j,end='')
+    print('\n')    
+
+i=1
+ while(i<=5):
+    j=1
+    while(j<=1):
+        print(i,end='')
+        j=j+1
+    print("\n")
+    i=i+1
+    
+                

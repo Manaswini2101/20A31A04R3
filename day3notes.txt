@@ -1,0 +1,59 @@
+1.print range of numbers using c and python                  7.print with * triangle,hallow triangle,equilateral triangle,diamond shape,triangle symmetry,dictionary patern,mirror symmetry.
+2.print the prime numbers from 1 to n in python.
+3.calculate the value in a nibble to a binary output.
+[6>>+2]
+binary nibble of 6 is 0110
+after 2 shifts it become 0001 1000
+we will consider 1st nibble so output is 1(0001)
+(hint:right shift=6//2 power 2)
+
+*garbage value is the combination of address in internal memory and backup memory of the variable.garbage values occurs in entitled programs
+
+4.write a python program for general swapping using summation and difference/multiplication and division/circumflex(^). (a,b=b,a)
+logic:i.(a=a+b         ii.(a=a*b         iii.(a=a^b
+         b=a-b             b=a/b              b=a^b
+         a=a-b)            a=a/b)             a=a^b)
+
+5.list syntax:
+list_name:[valu1,valu2,val3,....]
+print(list_name)
+*to access the value in a list of particular index(starts from 0 and ends at n-1) then
+print(list_name[index])
+for slicing the list:
+print(list_name[from index: to index])
+for list with various gaps:
+print(list_name[start:stop:step])
+there are 2 types of list:
+1.uni data type list
+2.multi data type list
+ex:
+num=[1,'a',"abc",[2,3,4],5.6]
+index(0  1    2      3     4)
+print(num[3][1])
+
+predefined functions in list:
+1.len([1,2,3,4,5])=lenght of list
+2.concatination=[1,2,3]+[4,5,6,7]
+3.repitition=[1,2,3]*3
+4.to get highest value from list:max(list_name)
+5.to get least value from list:min(list_name)
+6.to get the sum of all values in list:print(sum(num))
+7.to sort a list=print(sorted(num))
+8.to know whether any item is iterable=print(any(num))
+9.to know the number of times a value is repeated:print(list_name.count(value))
+10.to get the index of a particular value:print(list_name.index(value))
+11.to insert a value in a particular index:print(list_name.insert(index,value));print(list_name)
+12.to remove the element in the particular index:print(list_name.remove(index));print(list_name)
+13.to reverse the list:list_name.reverse();print(list_name)
+
+
+6.to print sum of n values
+n=int(input("enter the value"))
+i=1
+a=0
+while (i<=n):
+    a=a+i
+    i=i+1
+    print(i)
+*period(.)operator=used for accessing the element
+*append operator=used to add an element at the end of the list

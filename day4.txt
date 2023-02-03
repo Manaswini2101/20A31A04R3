@@ -1,0 +1,12 @@
+STRING:
+1.palindrome(2002,radar,level)
+2.anegram(words formed by rearrangement of elements of string without changing the count of string)
+process of anagram for n number of strings is called tomriddles anegram
+predefined function in string:
+1.print(str1*3)-to repeat a string 3 times
+2.[str2=input("enter a name:")
+str1+=str2
+print(str1)]- to concatenate two strings
+3.print(str.swapcase())=to get the condition opposite to the condition of elements in given string.
+4.to remove specific element in a string:string_name[element-removed1:element_removed2](index from 1)
+

@@ -1,0 +1,26 @@
+*Object Oriented Program in Python:
+1.class
+2.object
+3.abstract
+4.encapsulation
+5.polymorphism
+6.inheritance
+
+*object is a real time entity.
+*class is a blue print of objects.
+
+Inheritance:
+acquiring characteristics from parent class to sub class is called inheritance.
+the class from which characters are inherited is parent class/super class.
+the class which inherits characters is child class/sub class.
+There are 6 types of inheritance:
+1.single inheritance
+2.multiple inheritance
+3.multi-level inheritance
+4.hybrid inheritance
+5.hierarchial inheritance
+6.***multi-path inheritance[highest priority type of inheritance]
+
+*constructor is created in function which is in a class.
+syntax:__init__
+

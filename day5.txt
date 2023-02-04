@@ -1,0 +1,8 @@
+*step by step evaluation is also called as logical evaluation/generalized evaluation.
+*Function is a predefined set of instructions which can be repeated n number of times to perform a task with caller,called,calling.
+*function is defined with "Def" keyword.
+*Navigation of evauation starts from while loop and ends at class.
+*In functions we cannot concatenate using '+'.
+*we can directly send a value or arithmetic operation b/w two values as argument to function.
+*recursion function is a function which calls itself.return() is used in this recursive function.
+
